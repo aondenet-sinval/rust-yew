@@ -1,0 +1,6 @@
+use yew::{html};
+fn menu() -> Html{
+	html! {
+  		<div style="color: red;"></div>
+	};
+}
