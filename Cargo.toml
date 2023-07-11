@@ -7,5 +7,4 @@ edition = "2021"
 
 [dependencies]
 yew = { version = "0.20.0", features = ["csr"] }
-yew-bootstrap = "0.5.15"
 yew-router = "0.17"

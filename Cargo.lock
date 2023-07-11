@@ -449,7 +449,6 @@ name = "my-yew"
 version = "0.1.0"
 dependencies = [
  "yew",
- "yew-bootstrap",
  "yew-router",
 ]
 
@@ -890,16 +889,6 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "yew-macro",
-]
-
-[[package]]
-name = "yew-bootstrap"
-version = "0.5.15"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bb6e7a1a7e73f79492890c2d803e1dcfad48a02a0fbf61c3f39adb78bf08cd4f"
-dependencies = [
- "log",
- "yew",
 ]
 
 [[package]]
