@@ -9,7 +9,7 @@ pub fn MainPage() -> Html {
                 <h3>{"Desenvolvimento com rust e w3css"}</h3>
                 <p style={"background-color: yellow"}>{ "Site desenvolvido para treinamento e demonstração." }</p>
                 <p>{ "Rust é flexível e adaptável. Usei classes nesse projeto para incluir o leve w3css." }</p>
-                <p>{ "Dois caras rápidos... UAU!!!" }</p>
+                <p>{ "Dois caras rápidos... UAU!!!" }</p>                
             </div>
         </>
     }

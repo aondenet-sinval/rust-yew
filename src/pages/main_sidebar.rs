@@ -4,12 +4,19 @@ use yew::{function_component, html, Html, classes};
 pub fn MySidebar() -> Html {
     html! {
         <>
-            <h1 class={classes!("w3-green")}>{ "Rust + w3css" }</h1>
-            <div>
-                <h3>{"Desenvolvimento com rust e w3css"}</h3>
-                <p style={"background-color: yellow"}>{ "Site desenvolvido para treinamento e demonstração." }</p>
-                <p>{ "Rust é flexível e adaptável. Usei classes nesse projeto para incluir o leve w3css." }</p>
-                <p>{ "Dois caras rápidos... UAU!!!" }</p>
+            <div class={classes!("form-align")}>
+                <h3>{"Contato:"}</h3>
+                <form>
+                <label>{"Nome: "}</label>
+                <input class={classes!("w3-input")} type="text" id="nome" value={"seu nome"} /><br />
+                <label>{"Telefone: "}</label>
+                <input class={classes!("w3-input")} type="number" id="telefone" step="0" /><br />
+                <label>{"Endereço: "}</label>
+                <input class={classes!("w3-input")} type="text" id="endereco" value={"seu endereço"} /><br />
+                <label>{"Email: "}</label>
+                <input class={classes!("w3-input")} type="email" id="email" value={"Email"} /><br />
+                <input type="submit" value={"Enviar"} />
+                </form>
             </div>
         </>
     }

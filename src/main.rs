@@ -12,8 +12,10 @@ fn App() -> Html {
         <>
             <div class={classes!("geral")}>
                 <div class={classes!("menu-bar")}><MenuBar /></div>
-                <div class={classes!("page-principal")}><MainPage /></div>
-                <div class={classes!("sidebar-left")}><MySidebar /></div>
+                <div class={classes!("page")}>
+                    <div class={classes!("page-principal")}><MainPage /></div>
+                    <div class={classes!("sidebar-right")}><MySidebar /></div>
+                </div>
                 <div class={classes!("my-footer")}><MyFooter /></div>
             </div>
         </>
